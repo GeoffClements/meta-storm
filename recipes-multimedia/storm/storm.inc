@@ -1,2 +1,1 @@
 DEPENDS = "gstreamer1.0-libav gstreamer1.0-plugins-good"
-RDEPENDS = "libsoup"
