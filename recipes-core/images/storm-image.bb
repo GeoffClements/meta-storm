@@ -1,3 +1,3 @@
 include recipes-core/images/core-image-minimal.bb
 
-IMAGE_FEATURES += "storm"
+IMAGE_INSTALL += "storm-player"

@@ -162,5 +162,5 @@ LICENSE = "MIT"
 # includes this file if it exists but does not fail
 # this is useful for anything you may want to override from
 # what cargo-bitbake generates.
-include storm-${PV}.inc
-include storm.inc
+include storm-player-${PV}.inc
+include storm-player.inc
