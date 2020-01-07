@@ -150,9 +150,8 @@ SRC_URI += " \
 
 
 
-# FIXME: update generateme with the real MD5 of the license file
 LIC_FILES_CHKSUM = " \
-    file://MIT;md5=906fc20d398b7529753bafa3bee14f2c \
+    file://LICENSE.txt;md5=906fc20d398b7529753bafa3bee14f2c \
 "
 
 SUMMARY = "A Headless Client for Logitec Media Server"
