@@ -5,23 +5,16 @@ Please see the corresponding sections below for details.
 Dependencies
 ============
 
-  URI: <first dependency>
-  branch: <branch name>
+  URI: https://github.com/meta-rust/meta-rust
+  branch: master
 
-  URI: <second dependency>
-  branch: <branch name>
-
-  .
-  .
-  .
 
 Patches
 =======
 
-Please submit any patches against the meta-storm layer to the xxxx mailing list (xxxx@zzzz.org)
-and cc: the maintainer:
+Please submit any patches against the meta-storm layer to https://github.com/GeoffClements/meta-storm/issues
 
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+Maintainer: Geoff Clements <ro2kz0@gmail.com>
 
 Table of Contents
 =================
@@ -38,4 +31,5 @@ Run 'bitbake-layers add-layer meta-storm'
 II. Misc
 ========
 
---- replace with specific information about the meta-storm layer ---
+Create image with:
+bitbake storm-image
