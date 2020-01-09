@@ -1,0 +1,8 @@
+[Unit]
+Description=An audio player for the Slim protocol (Logitech Media Player)
+Requires=network.target
+After=network.target
+
+[Service]
+PIDFile=/run/storm/storm.pid
+ExecStart=@BINDIR@/storm
