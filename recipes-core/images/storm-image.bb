@@ -5,4 +5,4 @@ IMAGE_INSTALL += " \
     kernel-modules \
 "
 
-EXTRA_IMAGE_FEATURES = "read-only-rootfs"
+EXTRA_IMAGE_FEATURES += "read-only-rootfs"
