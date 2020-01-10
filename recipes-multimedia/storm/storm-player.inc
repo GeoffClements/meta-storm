@@ -1,4 +1,5 @@
 DEPENDS = "gstreamer1.0-libav gstreamer1.0-plugins-good"
+RDEPENDS_${PN} = "ffmpeg"
 
 LICENSE_FLAGS = "commercial"
 
