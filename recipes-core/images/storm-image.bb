@@ -1,8 +1,9 @@
 include recipes-core/images/core-image-minimal.bb
 
 IMAGE_INSTALL += " \
-    storm-player \
+    alsa-utils \
     kernel-modules \
+    storm-player \
 "
 
 EXTRA_IMAGE_FEATURES += "read-only-rootfs"
