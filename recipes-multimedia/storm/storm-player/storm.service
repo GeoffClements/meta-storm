@@ -3,6 +3,7 @@ Description=An audio player for the Slim protocol (Logitech Media Player)
 After=network-online.target
 Wants=network-online.target
 After=sound.target
+After=systemd-random-seed.service
 
 [Service]
 PIDFile=/run/storm/storm.pid
